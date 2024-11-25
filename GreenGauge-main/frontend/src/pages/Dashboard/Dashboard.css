@@ -1,0 +1,42 @@
+/* Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.dashboard h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.dashboard p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.dashboard-info {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.dashboard-info p {
+    font-size: 1.2rem;
+    color: #777;
+}

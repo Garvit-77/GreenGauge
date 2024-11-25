@@ -1,0 +1,93 @@
+/* Container for the leaderboard */
+.leaderboard-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* List styling to display leaderboard items in a column */
+.leaderboard-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the leaderboard items container */
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* General styling for each leaderboard item */
+.leaderboard-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Styling for the rank (position) number */
+.leaderboard-item .rank {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #007bff; /* Blue color for the rank */
+}
+
+/* Styling for the username and user ID */
+.leaderboard-item .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+
+/* Styling for the username (on the left side) */
+.leaderboard-item h4 {
+    font-size: 1.1em;
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+/* Styling for the user ID (on the left side) */
+.leaderboard-item .user-id {
+    font-size: 0.9em;
+    color: #888; /* Lighter gray text */
+    margin: 5px 0 0 0;
+}
+
+/* Styling for the emissions (on the right side) */
+.leaderboard-item .emissions {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333; /* Dark color for emissions */
+}
+
+/* Highlight the current user with a special background and style */
+.leaderboard-item.highlighted {
+    background-color: #007bff;   /* Blue background for the current user */
+    color: white;                /* White text */
+    border: 2px solid #0056b3;   /* Darker blue border */
+    font-weight: bold;           /* Bold text */
+    transform: scale(1.05);      /* Slightly enlarge the current user */
+}
+
+/* Styling for the rank of the current user */
+.leaderboard-item.highlighted .rank {
+    color: white; /* White rank number for the current user */
+}
+
+/* Styling for the username of the current user */
+.leaderboard-item.highlighted h4 {
+    color: white; /* White text for the username of the current user */
+}
+
+/* Optional: Add some styles for when no data is available */
+.no-data {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888; /* Light gray text for "No data" */
+}

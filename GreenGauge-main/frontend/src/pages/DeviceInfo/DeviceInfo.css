@@ -1,0 +1,184 @@
+/* DeviceInfo.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.device-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.device-info h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.device-info p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.device-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.device-details p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.back-to-dashboard {
+    margin-top: 20px;
+}
+
+.back-to-dashboard a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-to-dashboard a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+
+.mt-4 {
+    margin-top: 30px;
+}
+
+.device-details p strong {
+    color: #333;
+}
+
+.card-body .form-group {
+    margin-bottom: 20px;
+}
+
+.card-body .form-group input[type="number"] {
+    width: calc(50% - 10px);
+}
+
+.card-body .form-group .me-2 {
+    margin-right: 10px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="none" d="M12.9 4.1a1 1 0 1 0-1.4 1.4L11.3 6H4.7l-.2-.5a1 1 0 1 0-1.4 1.4l2 3.5a1 1 0 0 0 1.7 0l2-3.5a1 1 0 0 0-1.4-1.4l-.2.5h6.6l-.2-.5a1 1 0 0 0-.2-.2z"%3E%3C/path%3E%3C/svg%3E'),
+    linear-gradient(to bottom, #fff 0%, #e9ecef 100%);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 8px 10px;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+.smart-plug-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smart-plug-container .status {
+    font-size: 1.2rem;
+    color: #28a745;
+}
+
+.smart-plug-container .status.off {
+    color: #dc3545;
+}
+
+.smart-plug-container button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.smart-plug-container button:hover {
+    background-color: #218838;
+}
